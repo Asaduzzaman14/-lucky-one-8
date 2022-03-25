@@ -1,0 +1,17 @@
+/* #dbdbdd */
+.card{
+    height:450px;
+    width:300px;
+    border:2px solid rgb(27, 27, 55);
+    padding:10px;
+    border-radius: 10px;
+}
+.card img{
+    height:300px;
+    width:100%;
+    border-radius: 10px;
+}
+.cart-btn{
+    padding:7px 12px;
+    width:150px
+}
