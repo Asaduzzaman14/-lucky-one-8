@@ -1,13 +1,17 @@
 import React from 'react';
 import './Product.css'
-const Product = ({ product }) => {
+import { BsFillCartCheckFill } from 'react-icons/bs';
+
+
+import './Product.css'
+const Product = ({ product, handelAddCart }) => {
     const { img, name, price } = product
     return (
         <div className='card'>
             <img src={img} alt="" />
             <h2>{name}</h2>
             <h3>Price: ${price}</h3>
-            <button className='cart-btn'>Add To Cart</button>
+            <button onClick={() => { handelAddCart(product) }} className='cart-btn'>Add To Cart<BsFillCartCheckFill className='icon'></BsFillCartCheckFill></button>
         </div>
     );
 };
