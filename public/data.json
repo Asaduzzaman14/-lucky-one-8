@@ -1,0 +1,64 @@
+[
+    {
+        "id": "1",
+        "price": 108,
+        "name": "England Dudley",
+        "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": "2",
+        "price": 367,
+        "name": "Naomi Allen",
+        "img": "https://unsplash.com/photos/K62u25Jk6vo"
+    },
+    {
+        "id": "3",
+        "price": 117,
+        "name": "Nielsen Jimenez"
+    },
+    {
+        "id": "4",
+        "price": 464,
+        "name": "Bobbi Mosley"
+    },
+    {
+        "id": "5",
+        "price": 458,
+        "name": "Barton Rodriquez"
+    },
+    {
+        "id": "6",
+        "price": 96,
+        "name": "Cruz Bender"
+    },
+    {
+        "id": "7",
+        "price": 199,
+        "name": "Alford Colon"
+    },
+    {
+        "id": "8",
+        "price": 416,
+        "name": "Nola Hensley"
+    },
+    {
+        "id": "9",
+        "price": 59,
+        "name": "Deloris Ayala"
+    },
+    {
+        "id": "10",
+        "price": 103,
+        "name": "Maggie Hayes"
+    },
+    {
+        "id": "11",
+        "price": 34,
+        "name": "Margie Roberson"
+    },
+    {
+        "id": "12",
+        "price": 190,
+        "name": "Cristina Haney"
+    }
+]
