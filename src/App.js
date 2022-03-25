@@ -3,7 +3,7 @@ import Shop from './component/Shop/Shop';
 
 function App() {
   return (
-    <div>
+    <div >
       <Header></Header>
       <Shop></Shop>
 

@@ -7,7 +7,7 @@ const Shop = () => {
 
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
-    console.log(cart.name);
+
     useEffect(() => {
         fetch('data.json')
             .then(Response => Response.json())
@@ -31,10 +31,15 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
+
+            {/* send data to cart component */}
             <div className='cart-container'>
+                <h2>order Summery</h2>
                 {
-                    cart.map(item => <h2>{item.name}</h2>)
+                    cart.map(item => <Cart key={item.id} item={item}></Cart>)
                 }
+                <button className='cart-button'>Choose one</button>
+                <button className='cart-button'>Choose Again</button>
             </div>
         </div>
     );

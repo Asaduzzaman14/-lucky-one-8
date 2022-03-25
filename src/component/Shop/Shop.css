@@ -10,7 +10,18 @@
 }
 .cart-container{
     background: rgba(84, 69, 113, 0.3);
+    position: sticky;
+    top:0;
 
+}
+.cart-button{
+    padding:8px 14px;
+    background-color: rgb(23, 48, 103);
+    color:#FFF;
+    font-size: 18px;
+    border:none;
+    border-radius: 7px;
+    margin:10px;
 }
 @media screen and (max-width:700px) {
     .product-container{
