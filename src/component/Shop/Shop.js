@@ -13,12 +13,20 @@ const Shop = () => {
             .then(Response => Response.json())
             .then(data => setProducts(data))
     }, [])
-    const handelAddCart = (product) => {
 
-        const newProduct = [...cart, product]
+    const handelAddCart = (selectedProduct) => {
+        let newProduct = []
+        const exists = cart.find(product => product.id === selectedProduct.id)
+        if (!exists) {
+            newProduct = [...cart, selectedProduct]
+        } else {
+            alert('alrady added')
+            newProduct = [...cart]
+        }
         console.log(newProduct.length);
         setCart(newProduct)
     }
+
 
     // clear cart
     const ClearCart = () => {
