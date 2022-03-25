@@ -3,7 +3,7 @@ import './Cart.css'
 import { MdDelete } from 'react-icons/md';
 
 const Cart = ({ item }) => {
-    console.log(item);
+    // console.log(item);
     return (
         <div className='cart-item'>
             <img src={item.img} alt="" />

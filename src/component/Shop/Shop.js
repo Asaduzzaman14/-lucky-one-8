@@ -14,11 +14,20 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
     const handelAddCart = (product) => {
+
         const newProduct = [...cart, product]
+        console.log(newProduct.length);
         setCart(newProduct)
     }
 
+    // clear cart
+    const ClearCart = () => {
+        setCart([])
+    }
 
+    const RandonProduct = () => {
+
+    }
 
     return (
         <div className='shop-container'>
@@ -38,8 +47,8 @@ const Shop = () => {
                 {
                     cart.map(item => <Cart key={item.id} item={item}></Cart>)
                 }
-                <button className='cart-button'>Choose one</button>
-                <button className='cart-button'>Choose Again</button>
+                <button onClick={RandonProduct} className='cart-button'>Choose one</button>
+                <button onClick={ClearCart} className='cart-button'>Choose Again</button>
             </div>
         </div>
     );
