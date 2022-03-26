@@ -45,7 +45,6 @@ const Shop = () => {
         for (let randomItemm in randomItem) {
             return alert(randomItem.name);
         }
-
     }
     return (
         <div className='shop-container'>
