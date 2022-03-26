@@ -1,25 +1,19 @@
-.cart-container{
-    
-    position: sticky; 
-    top: 0;
-    height:800px;
-    text-align: center;
-}
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 9fr 3fr;
    
 }
 .product-container{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:25px;
-    margin:30px 50px;
+    gap:20px;
+    margin:30px 10px;
 }
 .cart-container{
-    margin-top: 30px;
-    position: sticky;
-    top:10px;
+    position: sticky; 
+    top: 0;
+    height:600px;
+    text-align: center;
     background: rgba(84, 69, 113, 0.3);
 }
 .cart-button{
@@ -31,11 +25,25 @@
     border-radius: 7px;
     margin:10px;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .product-container{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        gap:25px;
+        margin:0 auto;
+        
     }
+    .shop-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-container{
+        order: 0;
+        position: relative;
+    }
+    .product-container{
+        order:2
+    }
+
 }
 
 
-/* State অনেকটা props এর মতই, কিন্তু এটি প্রাইভেট এবং কম্পোনেন্ট এটিকে সম্পূর্ণভাবে নিয়ন্ত্রণ করে। */

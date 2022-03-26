@@ -23,8 +23,13 @@ const Shop = () => {
             alert('alrady added')
             newProduct = [...cart]
         }
-        // console.log(newProduct.length);
-        setCart(newProduct)
+        if (newProduct.length > 4) {
+            alert('not added')
+        } else {
+            setCart(newProduct)
+        }
+
+
     }
 
 
