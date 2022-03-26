@@ -60,7 +60,7 @@ const Shop = () => {
 
             {/* send data to cart component */}
             <div className='cart-container'>
-                <h2>order Summery</h2>
+                <h2>Order Summery</h2>
                 {
                     cart.map(item => <Cart key={item.id} item={item}></Cart>)
                 }

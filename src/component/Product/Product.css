@@ -3,9 +3,12 @@
     height:450px;
     width:250px;
     border:2px solid rgb(27, 27, 55);
-    padding:10px;
+   
     border-radius: 10px;
     position: relative;
+}
+.cart-info{
+ padding:10px;
 }
 .card img{
     height:280px;
@@ -17,10 +20,15 @@
 }
 .cart-btn{
     padding:7px 12px;
-    width:170px;
+    /* width:170px; */
     font-size: 18px;
     position: absolute;
-    bottom:5px;
+    bottom:0px;
+    width:100%;
+    border: none;
+    background-color: rgb(20, 18, 50);
+    color: #fff;
+    border-radius: 8px;
 }
 .icon{
     font-size: 20px;

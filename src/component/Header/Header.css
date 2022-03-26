@@ -3,7 +3,16 @@
     background: #1C2B35;
    color:#FFF;
    display: flex;
+   
     align-items: center;
     justify-content: center;
+    
+}
+.Header h2{
+    text-align: center;
+    margin: 20px auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     
 }
