@@ -12,7 +12,7 @@
 .cart-container{
     position: sticky; 
     top: 0;
-    height:600px;
+    height:500px;
     text-align: center;
     background: rgba(84, 69, 113, 0.3);
 }

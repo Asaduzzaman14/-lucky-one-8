@@ -14,6 +14,10 @@ const QusAns = () => {
             </div>
             <div>
                 <h4>props vs State?</h4>
+                <p>  1.props are tead only <br />
+                    2. props change an
+
+                </p>
             </div>
 
         </div>

@@ -29,7 +29,6 @@ const Shop = () => {
             setCart(newProduct)
         }
 
-
     }
 
 
@@ -40,14 +39,14 @@ const Shop = () => {
 
     // get random product
     const RandonProduct = (cart) => {
-        console.log(cart);
-        let one = Math.floor(Math.random() * cart.length + 1)
-        console.log(one, 'random');
-        cart.map(cart => cart.id === one)
-
+        // console.log(cart);
+        let randomItem = cart[Math.floor(Math.random() * cart.length)]
+        console.log(randomItem);
+        for (let randomItemm in randomItem) {
+            return alert(randomItem.name);
+        }
 
     }
-
     return (
         <div className='shop-container'>
             <div className='product-container'>

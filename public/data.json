@@ -2,7 +2,7 @@
     {
         "id": "1",
         "price": 108,
-        "name": "Headset",
+        "name": "Watch",
         "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": "3",
         "price": 117,
-        "name": "Nielsen Jimenez",
+        "name": "golden Hadphone",
         "img": "https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     },
     {
@@ -26,7 +26,7 @@
     {
         "id": "5",
         "price": 458,
-        "name": "Black Hadphone A60300",
+        "name": "Hadphone A60300",
         "img": "https://media.istockphoto.com/photos/earphones-on-the-blue-background-with-case-picture-id1222427802?b=1&k=20&m=1222427802&s=170667a&w=0&h=2g4gxoeyDuoSAd7PuW-H945vz_rUFJxndmUeMpkHyZw="
     },
     {
@@ -44,7 +44,7 @@
     {
         "id": "8",
         "price": 416,
-        "name": "Black Wirless headsphone",
+        "name": "Wirless headsphone",
         "img": "https://images.unsplash.com/photo-1556196148-1fb724238998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
     },
     {
@@ -62,13 +62,13 @@
     {
         "id": "11",
         "price": 34,
-        "name": "Black Sony headphones",
+        "name": "sSony headphones",
         "img": "https://images.unsplash.com/photo-1548378329-437e1ef34263?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
     },
     {
         "id": "12",
         "price": 190,
-        "name": "red Headphone isoleted",
+        "name": "red Headphone",
         "img": "https://media.istockphoto.com/photos/red-headphones-isolated-picture-id835148968?b=1&k=20&m=835148968&s=170667a&w=0&h=hXa9UiLeFASHfln_EJ2wSt3ddfcRIdg6BrBCLTow_Zs="
     }
 ]
