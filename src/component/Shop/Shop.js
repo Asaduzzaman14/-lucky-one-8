@@ -20,11 +20,11 @@ const Shop = () => {
         if (!exists) {
             newProduct = [...cart, selectedProduct]
         } else {
-            alert('alrady added')
+            alert('alrady added This item')
             newProduct = [...cart]
         }
         if (newProduct.length > 4) {
-            alert('not added')
+            alert('You can add only 4 product')
         } else {
             setCart(newProduct)
         }
