@@ -23,7 +23,7 @@ const Shop = () => {
             alert('alrady added')
             newProduct = [...cart]
         }
-        console.log(newProduct.length);
+        // console.log(newProduct.length);
         setCart(newProduct)
     }
 
@@ -33,7 +33,13 @@ const Shop = () => {
         setCart([])
     }
 
-    const RandonProduct = () => {
+    // get random product
+    const RandonProduct = (cart) => {
+        console.log(cart);
+        let one = Math.floor(Math.random() * cart.length + 1)
+        console.log(one, 'random');
+        cart.map(cart => cart.id === one)
+
 
     }
 
@@ -55,7 +61,9 @@ const Shop = () => {
                 {
                     cart.map(item => <Cart key={item.id} item={item}></Cart>)
                 }
-                <button onClick={RandonProduct} className='cart-button'>Choose one</button>
+                <button onClick={() => { RandonProduct(cart) }} className='cart-button'>Choose one</button>
+
+
                 <button onClick={ClearCart} className='cart-button'>Choose Again</button>
             </div>
         </div>
